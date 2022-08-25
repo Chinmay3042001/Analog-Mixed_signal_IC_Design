@@ -1,0 +1,9 @@
+* C:\Users\crmar\Documents\AMSD_Projects\Assignment2_sim1.asc
+R1 N001 0 15k
+R2 N001 N002 10k
+I1 0 N001 2m
+V1 N002 0 5
+R3 N001 0 3k
+.tran 100000
+.backanno
+.end
