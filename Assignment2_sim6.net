@@ -1,0 +1,10 @@
+* C:\Users\crmar\Documents\AMSD_Projects\Assignment2_sim6.asc
+M1 N001 N002 0 0 PMOS
+V1 0 N002 3
+V2 0 N001 5
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\crmar\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.mos
+.dc V1 0 3 0.01 V2 0 3 0.5
+.backanno
+.end
